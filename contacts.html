@@ -7,6 +7,30 @@
     <title>Inscriptions</title>
 </head>
 <body>
-    <h1>Inscrivez vous et prenez le premier pas vers vos voyages de reve</h1>
+    <header>
+        <h1>Inscrivez vous!</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Acceuil</a>
+        <a href="../destinations.html">Destinations</a>
+    </nav>
+    <section>
+        <p>Prenez le premier pas vers vos destinations de reve en vous inscrivant sous dessous</p>
+        <form action="enregistrement.php" method="get">
+            <p>First Name:</p>
+            <input type="text" id="surname" placeholder="John, Phillip etc" name="surname" maxlength="200">
+            <br><p>Family name:</p>
+            <input type="text" name="name" id="name" placeholder="Green" maxlength="200">
+            <br><p>Email address:</p>
+            <input type="email" name="email" id="email" placeholder="john.green@gmail.com" maxlength="200">
+            <br><p>Address:</p>
+            <input type="text" name="address" id="address" placeholder="1 Street John-US" maxlength="200">
+            <br><p>Postal Code:</p>
+            <input type="text" name="zip" id="zip" placeholder="00000" maxlength="15">
+            <br>
+            <br>
+            <input type="submit" name="done" id="done">
+        </form>
+    </section>
 </body>
 </html>
