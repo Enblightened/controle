@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <title>Agence de voyage</title>
+    <meta charset="utf-8">
+    <meta name="description" content="site agence de voyage contacts">
+    <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Enregistrez vous!">
-    <title>Inscriptions</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/mobile.css">
+    <link rel="styleshhet" href="../css/style.css">
+    <link rel="styleshhet" href="../css/mobile.css">
 </head>
 <body>
     <header>
@@ -14,25 +15,26 @@
     </header>
     <nav>
         <a href="../index.html">Acceuil</a>
-        <a href="../destinations.html">Destinations</a>
+        <a href="destination.html">Destinations</a>
     </nav>
-    <section>
-        <p>Prenez le premier pas vers vos destinations de reve en vous inscrivant sous dessous</p>
+    <main>
+        <p>Faites le premier pas vers vos destinations de reve en vous inscrivant ci-dessous</p>
         <form action="enregistrement.php" method="get">
-            <p>First Name:</p>
-            <input type="text" id="surname" placeholder="John, Phillip etc" name="surname" maxlength="200">
-            <br><p>Family name:</p>
-            <input type="text" name="name" id="name" placeholder="Green" maxlength="200">
-            <br><p>Email address:</p>
+            <p>Prénom:</p>
+            <input type="text" id="prenom" name="prenom" placeholder="John" maxlength="200">
+            <br><p>Nom:</p>
+            <input type="text" name="nom" id="nom" placeholder="Green" maxlength="200">
+            <br><p>Adresse mail:</p>
             <input type="email" name="email" id="email" placeholder="john.green@gmail.com" maxlength="200">
-            <br><p>Address:</p>
-            <input type="text" name="address" id="address" placeholder="1 Street John-US" maxlength="200">
-            <br><p>Postal Code:</p>
-            <input type="text" name="zip" id="zip" placeholder="00000" maxlength="15">
+            <br><p>Adresse:</p>
+            <input type="text" name="adresse" id="adresse" placeholder="1 Street John-US" maxlength="200">
+            <br><p>Code postal:</p>
+            <input type="text" name="cp" id="cp" placeholder="00000" maxlength="15">
             <br>
             <br>
-            <input type="submit" name="done" id="done">
+            <input type="submit" id="submit" value="Enregistrer">
         </form>
-    </section>
+    </main>
+    <footer>&copy;2025</footer>
 </body>
 </html>
