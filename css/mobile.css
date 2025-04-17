@@ -1,0 +1,5 @@
+@media screen and (device-max:600px){
+    img{
+        width: 100%;
+    }
+}

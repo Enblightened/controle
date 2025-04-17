@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Agence de voyage</title>
+    <meta charset="utf-8">
+    <meta name="description" content="site agence de voyage contacts">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleshhet" href="../css/style.css">
+    <link rel="styleshhet" href="../css/mobile.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrivez vous!</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Acceuil</a>
+        <a href="destination.html">Destinations</a>
+    </nav>
+    <main>
+        <p>Faites le premier pas vers vos destinations de reve en vous inscrivant ci-dessous</p>
+        <form action="enregistrement.php" method="get">
+            <p>Prénom:</p>
+            <input type="text" id="prenom" name="prenom" placeholder="John" maxlength="200">
+            <br><p>Nom:</p>
+            <input type="text" name="nom" id="nom" placeholder="Green" maxlength="200">
+            <br><p>Adresse mail:</p>
+            <input type="email" name="email" id="email" placeholder="john.green@gmail.com" maxlength="200">
+            <br><p>Adresse:</p>
+            <input type="text" name="adresse" id="adresse" placeholder="1 Street John-US" maxlength="200">
+            <br><p>Code postal:</p>
+            <input type="text" name="cp" id="cp" placeholder="00000" maxlength="15">
+            <br>
+            <br>
+            <input type="submit" id="submit" value="Enregistrer">
+        </form>
+    </main>
+    <footer>&copy;2025</footer>
+</body>
+</html>
