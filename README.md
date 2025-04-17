@@ -1,2 +1,0 @@
-# controle
-Exam repository
