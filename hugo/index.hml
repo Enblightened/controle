@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Explore</title>
+        <meta name="description" content="">
+        <meta charset="utf -8">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <h1>Aggence de Voyage</h1>
+        <main>
+            <header></header>
+            <article>
+                <img src="images/img1.webp" alt="Man enjoying the view">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam cupiditate nam consequuntur, blanditiis odio et maxime accusantium eius quae doloremque provident tempora expedita sapiente officia. Consequatur quidem perspiciatis exercitationem?</p>
+            </article>
+            <article>
+                <img src="images/img2.webp" alt="landmarks">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque veniam cupiditate nam consequuntur, blanditiis odio et maxime accusantium eius quae doloremque provident tempora expedita sapiente officia. Consequatur quidem perspiciatis exercitationem?</p>
+            </article>
+            
+        </main>
+        <footer>Copyright @2025</footer>
+    </body>
+</html>
